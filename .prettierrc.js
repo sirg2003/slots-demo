@@ -1,0 +1,26 @@
+// https://www.npmjs.com/package/eslint-config-alloy
+// prettier.config.js or .prettierrc.js
+module.exports = {
+  printWidth: 100,
+  tabWidth: 2,
+  useTabs: false,
+  semi: true,
+  singleQuote: true,
+  quoteProps: 'as-needed',
+  jsxSingleQuote: false,
+  // trailingComma: 'none',
+  trailingComma: 'all',
+  bracketSpacing: true,
+  rangeStart: 0,
+  rangeEnd: Infinity,
+  requirePragma: false,
+  insertPragma: false,
+  proseWrap: 'preserve',
+  endOfLine: 'lf',
+  jsxBracketSameLine: false,
+  // jsxBracketSameLine: true,
+  // htmlWhitespaceSensitivity: 'css',
+  htmlWhitespaceSensitivity: 'ignore',
+  arrowParens: 'always',
+  // arrowParens: true,
+}
